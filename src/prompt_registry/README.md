@@ -131,6 +131,13 @@ pytest tests/ -v                         # 7 tests
 python src/prompt_registry/demo.py       # full cycle with rollback (~1s)
 ```
 
+## Referências (crédito aos autores)
+
+- MLflow Prompt Registry (Databricks): versionamento de prompts com aliases (documentação oficial).
+- Greshake et al. (2023). Not What You've Signed Up For: Indirect Prompt Injection. AISec/CCS.
+
+Este módulo é uma reimplementação didática e offline desses conceitos.
+
 ---
 
 Part of my LinkedIn series on LLMOps → [Flávia Gaia](https://www.linkedin.com/in/flavia-gaia/)
